@@ -4,7 +4,7 @@ body {
   line-height: 1;
 }
 
-textarea {
+textarea { /*added id to div holding row*/
   background: transparent;
   border: none;
   resize: none;
@@ -25,15 +25,17 @@ textarea {
   white-space: pre-wrap;
 }
 
-.time-block {
+.time-block { /*added id to div holding row*/
   text-align: center;
   border-radius: 15px;
 }
-
-.row {
+/* ↓ update to allow font to flex. */
+.row { /*added id to div holding row.. i need to make a change to this so the text fits within the block*/
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
+  border-top: 1px solid rgb(187, 23, 23);
+  border-bottom: 2px solid white;
+  text-size-adjust: 50%;
 }
 
 .hour {
