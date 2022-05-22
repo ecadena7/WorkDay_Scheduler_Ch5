@@ -16,9 +16,9 @@ textarea { /*added id to div holding row*/
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: rgb(139, 38, 126);
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid rgb(55, 6, 119);
 }
 
 .description {
@@ -29,13 +29,12 @@ textarea { /*added id to div holding row*/
   text-align: center;
   border-radius: 15px;
 }
-/* ↓ update to allow font to flex. */
-.row { /*added id to div holding row.. i need to make a change to this so the text fits within the block*/
+
+.row { /*added id to div holding row.*/
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid rgb(187, 23, 23);
-  border-bottom: 2px solid white;
-  text-size-adjust: 50%;
+  border-top: 1px solid white;
+  /* border-bottom: 2px dotted rgb(26, 28, 151); */
 }
 
 .hour {
@@ -71,3 +70,4 @@ textarea { /*added id to div holding row*/
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
