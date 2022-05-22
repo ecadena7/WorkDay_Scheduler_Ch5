@@ -37,28 +37,28 @@ textarea { /*added id to div holding row*/
   /* border-bottom: 2px dotted rgb(26, 28, 151); */
 }
 
-.hour {
+.hour { /*added this to the row that contains the time.*/
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
-.past {
+.past { /*add this to script.js file*/
   background-color: #d3d3d3;
   color: white;
 }
 
-.present {
+.present { /*add this to script.js file*/
   background-color: #ff6961;
   color: white;
 }
 
-.future {
+.future { /*add this to script.js file*/
   background-color: #77dd77;
   color: white;
 }
 
-.saveBtn {
+.saveBtn { /*added this to the button along with the bootstrap column length*/
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -66,7 +66,7 @@ textarea { /*added id to div holding row*/
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn i:hover { /*the icon works!!!*/
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
